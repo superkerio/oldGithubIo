@@ -1,0 +1,67 @@
+.flex{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.flex-start{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+.flex-between{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.flex-column{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.flex-column-start{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+}
+.son{
+	width:100%;
+}
+.body-wrapper{
+	width:100%;
+	height:100%;
+	background-color: #fefaef;
+	color: #403f3b;
+	font: 400 100%/1.3 "proxima-nova", 'Proxima Nova', sans-serif;
+}
+header{
+	width:100%;
+	height:20px;
+	margin:44px 0;
+}
+.header-left{
+	font-family: europa;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	cursor:pointer;
+}
+.header-right{
+	font-family: europa;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12px;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	line-height: 1em;
+	>span:hover{
+	color:#c31e1a;
+	cursor:pointer;
+	}
+	>span+span{
+		margin-left:18px;
+	}
+}
