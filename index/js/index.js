@@ -38,28 +38,28 @@ var circle=function(){
 		return getRandomColor();
 	}
 	o.number=function(){
-		var min=10;
-		var max=15;		
+		var min=20;
+		var max=25;		
 		return getRandom(min,max);
 	}
 	o.r=function(){
-		var min=10;
-		var max=40;
+		var min=5;
+		var max=30;
 		return getRandom(min,max);
 	}
 	o.x=function(){
 		var min=0;
-		var max=2694;
+		var max=3840;
 		return getRandom(min,max);
 	}
 	o.y=function(){
 		var min=0;
-		var max=1322;
+		var max=2160;
 		return getRandom(min,max);
 	}
 	o.speed=function(){
-		var min=(-3);
-		var max=3;
+		var min=(-1);
+		var max=1;
 		return getRandomReal(min,max);
 	}
 	return o;
@@ -84,10 +84,10 @@ var main=function(){
 				s2=arr2[4];
 				// console.log(x,y,r,s1,s2);
 				var red=function(){
-					 if(x<0||x>2694){
+					 if(x<0||x>3840){
 					 	s1=-s1;
 					 }
-					 if(y<0||y>1322){
+					 if(y<0||y>2160){
 					 	s2=-s2
 					 }
 					 x=x+s1;
@@ -107,10 +107,10 @@ var main=function(){
 		var s2=c.speed();
 		// console.log(x,y,r,s1,s2);
 		var red=function(){
-			 if(x<0||x>2694){
+			 if(x<0||x>3840){
 			 	s1=-s1;
 			 }
-			 if(y<0||y>1322){
+			 if(y<0||y>2160){
 			 	s2=-s2
 			 }
 			 x=x+s1;
